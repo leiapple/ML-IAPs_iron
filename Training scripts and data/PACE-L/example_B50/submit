@@ -1,0 +1,17 @@
+#!/bin/bash
+#SBATCH --job-name=6BH_0.8
+#SBATCH --partition=regular
+#SBATCH --ntasks=1  # number of processor cores (i.e. tasks)
+##SBATCH --nodes=1   # number of nodes
+#SBATCH --time=9-00:00:00
+#SBATCH --error=slurm-%j.stderr
+#SBATCH --output=slurm-%j.stdout
+#SBATCH --mail-type=ALL
+#SBATCH --mail-user=lei.zhang@rug.nl
+#SBATCH --mem=80GB
+
+module load Python/3.8.6-GCCcore-10.2.0
+source /data/p301616/.envs/pace/bin/activate
+
+pacemaker input.yaml
+

@@ -1,0 +1,48 @@
+Warning: Maximum number of iterations has been exceeded.
+         Current function value: 0.001101
+         Iterations: 1000
+         Function evaluations: 1028
+         Gradient evaluations: 1028
+Fitting took 220087.91 seconds
+
+
+###############################################################################
+Peregrine Cluster
+Job 27878909 for user 'p301616'
+Finished at: Wed Dec 14 13:56:02 CET 2022
+
+Job details:
+============
+
+Job ID              : 27878909
+Name                : 6BH_0.8
+User                : p301616
+Partition           : regular
+Nodes               : pg-node088
+Number of Nodes     : 1
+Cores               : 1
+Number of Tasks     : 1
+State               : COMPLETED
+Submit              : 2022-12-11T21:44:30
+Start               : 2022-12-12T00:42:58
+End                 : 2022-12-14T13:56:02
+Reserved walltime   : 9-00:00:00
+Used walltime       : 2-13:13:04
+Used CPU time       : 2-13:06:21 (efficiency: 99.82%)
+% User (Computation): 77.18%
+% System (I/O)      : 22.82%
+Mem reserved        : 80G
+Max Mem (Node/step) : 3.45G (pg-node088, per node)
+Full Max Mem usage  : 3.45G
+Total Disk Read     : 1.18M
+Total Disk Write    : 34.26K
+
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Peregrine in your publications:
+
+https://wiki.hpc.rug.nl/peregrine/introduction/scientific_output
+
+################################################################################

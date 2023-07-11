@@ -1,0 +1,13 @@
+#!/bin/bash
+#SBATCH --job-name=mtp_lev22
+#SBATCH --partition=thin
+#SBATCH --nodes=1
+#SBATCH --time=20:00:00
+#SBATCH --exclusive
+#SBATCH --error=slurm-%j.stderr
+#SBATCH --output=slurm-%j.stdout
+#SBATCH --mail-type=ALL
+#SBATCH --mail-user=lei.zhang@rug.nl
+
+python extxyz2cfg.py
+srun mlp train lev22.mtp training.cfg --trained-pot-name=pot.mtp --valid-cfgs=validation.cfg --energy-weight=1 --force-weight=0.1 --stress-weight=0.05 --max-iter=3000
