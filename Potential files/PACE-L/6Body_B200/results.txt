@@ -1,0 +1,42 @@
+#**********************************
+GAP basis set: b200
+pair_style pace
+pair_coeff * * /gpfs/scratch1/shared/zhanglei1/Basic_test/pace_l/b200/potential/l_pace_b200.yace Fe 
+#**********************************
+============================================ 
+Birch-Murnaghan 
+E0 = -5.233383 eV
+B0 = 180.203734 GPa
+Bp = -4.719198
+V0 = 11.377620 angstrom^3
+a0 = 2.833743 angstrom
+#**********************************
+Vacancy formation energy is:
+2.10430469268939
+=========================================
+Components of the Elastic Constant Tensor
+Elastic Constant C11all = 245.235659608178 GPa
+Elastic Constant C12all = 139.46427144636 GPa
+Elastic Constant C44all = 103.373649378686 GPa
+Average properties for a cubic crystal
+Bulk Modulus = 174.721400832763 GPa
+Shear Modulus 1 = 103.373649378576 GPa
+Shear Modulus 2 = 52.885694080368 GPa
+Poisson Ratio = 0.362527414715967
+=========================================
+(100) surface energy is:
+2.55259263826055
+=========================================
+(110) surface energy is:
+2.46583690590519
+=========================================
+(111) surface energy is:
+2.7000698893671
+=========================================
+(112) surface energy is:
+2.62365058675298
+=========================================
+Max (110) SF energy
+0.981675748309576
+Max (112) SF energy
+1.10217814162349
