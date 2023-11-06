@@ -4,7 +4,7 @@
 
 **AUTHOR**: <lei.zhang@rug.nl>
 
-This repo is associated with the publicaiton: 
+This repo is associated with the publicaiton `arXiv:2307.10072v1`: 
 The repo contains two parts:
 
 1. Training scripts of multiple machine learning interatomic potentials, including
@@ -12,4 +12,5 @@ The repo contains two parts:
    -  gaussian approximation potential (GAP)
    -  neural network potential (NNP)
    -  atomic cluster expansion (PACE)
-2. The corresponding potential files ready-to-use for LAMMPS. 
+2. The corresponding potential files ready-to-use for LAMMPS.
+3. Jupyter notebooks for reproducing the Figures in publication.
