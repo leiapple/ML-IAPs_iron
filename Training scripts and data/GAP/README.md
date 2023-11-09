@@ -14,7 +14,7 @@ The key parameters are listed in this [page](https://libatoms.github.io/GAP/gap_
 
 ## Example
 
-Folder `L8_N8` is an exmaple training script using $l_{\rm max}=8$, $n_{\rm max}=8$, and $R_{\rm cut}=6.5\AA$. 
+Folder `L8_N8` is an exmaple training script using $l_{\rm max}=8$, $n_{\rm max}=8$, and $R_{\rm cut}=6.5 \overset{\circ}{\rm A}$. 
 
 ## RMSE analysis
 

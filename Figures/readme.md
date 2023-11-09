@@ -1,4 +1,4 @@
-# Figures assiociated with Publication `arXiv:2307.10072v2`
+# Figures assiociated with Publication _[Efficiency, Accuracy, and Transferability of Machine Learning Potentials: Application to Dislocations and Cracks in Iron](https://arxiv.org/abs/2307.10072)_
 
 This repository contains the jupyter notebooks for reproducing the Figures in publication. 
 1. Figure 2: Convergence analysis of RMSE (energy and force) for all machine learning potentials (ML-IAPs).
