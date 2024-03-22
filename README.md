@@ -1,6 +1,6 @@
 # ML-IAPs_iron
 
-This repo is associated with the publicaiton [Efficiency, Accuracy, and Transferability of Machine Learning Potentials: Application to Dislocations and Cracks in Iron](https://arxiv.org/abs/2307.10072): 
+This repo is associated with the publicaiton [Efficiency, Accuracy, and Transferability of Machine Learning Potentials: Application to Dislocations and Cracks in Iron](https://doi.org/10.1016/j.actamat.2024.119788): 
 The repo contains two parts:
 
 1. Training scripts of multiple machine learning interatomic potentials, including
